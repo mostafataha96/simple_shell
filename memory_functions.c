@@ -9,9 +9,9 @@
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int ii;
+	unsigned int i;
 
-	for (ii = 0; ii < n; ii++)
+	for (i = 0; i < n; i++)
 		s[i] = b;
 	return (s);
 }
@@ -36,6 +36,7 @@ void ffree(char **pp)
  * @ptr: pointer to previous malloc'ated block
  * @old_size: byte size of previous block
  * @new_size: byte size of new block
+ *
  * Return: pointer to da ol'block nameen.
  */
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
