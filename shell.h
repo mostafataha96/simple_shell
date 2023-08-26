@@ -12,7 +12,7 @@
 #include <fcntl.h>
 #include <errno.h>
 
-/* for read/write buffers */
+/* for read/write buffrs */
 #define READ_BUF_SIZE 1024
 #define WRITE_BUF_SIZE 1024
 #define BUF_FLUSH -1
@@ -40,7 +40,7 @@ extern char **environ;
 /**
  * struct liststr - singly linked list
  * @num: the number field
- * @str: a string
+ * @str: a strin
  * @next: points to the next node
  */
 typedef struct liststr
